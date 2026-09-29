@@ -1,0 +1,32 @@
+[
+  {
+    "nameRomaji": "Shimbashi",
+    "nameKanji": "新橋",
+    "kanjiLength": 2,
+    "romajiSearch": ["shinbashi", "shimbashi"],
+    "prefecture": "東京都",
+    "municipality": "港区", 
+    "latitude": 35.6664,
+    "longitude": 139.7583,
+    "operators": ["JR 東日本", "東京メトロ", "都営", "ゆりかもめ"],
+    "lineCount": 4,
+    "linesList": ["山手線", "東海道線", "銀座線", "浅草線"],
+    "passengerRank": 7,
+    "passengerTier": "上位10位"
+  },
+  {
+    "nameRomaji": "Shinjuku",
+    "nameKanji": "新宿",
+    "kanjiLength": 2,
+    "romajiSearch": ["shinjuku"],
+    "prefecture": "東京都",
+    "municipality": "新宿区",
+    "latitude": 35.6895,
+    "longitude": 139.7004,
+    "operators": ["JR 東日本", "東京メトロ", "都営", "小田急", "京王"],
+    "lineCount": 8,
+    "linesList": ["山手線", "中央線", "丸の内線", "新宿線", "大江戸線", "小田原線", "京王線", "新宿線"],
+    "passengerRank": 1,
+    "passengerTier": "上位10位"
+  }
+]
