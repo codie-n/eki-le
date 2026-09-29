@@ -41,10 +41,10 @@ model Station {
 }
 
 model DailyStationSequence {
-  dayIndex           Int      @id
-  stationId          String   @unique // Reference to the station id
-  station            Station  @relation(fields: [stationId], references: [id], onDelete: Cascade)
-  playDate           DateTime @unique // Stores the date a station is used
+  dayIndex           Int       @id
+  stationId          String    @unique // Reference to the station id
+  station            Station   @relation(fields: [stationId], references: [id], onDelete: Cascade)
+  playDate           DateTime? @unique // Stores the date a station is used
 }
 
 model GameStatus {

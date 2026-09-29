@@ -14,7 +14,7 @@ export async function generateStationSequence() {
   }
 
   // Clear the old sequence
-  await prisma.dailySequence.deleteMany({});
+  await prisma.dailyStationSequence.deleteMany({});
   console.log("Cleared previous daily sequence.");
 
   // Use a Fisher Yates shuffle
@@ -30,7 +30,7 @@ export async function generateStationSequence() {
     stationId: stationId
   }));
 
-  await prisma.dailySequence.createMany({
+  await prisma.dailyStationSequence.createMany({
     data: sequenceEntries
   });
 

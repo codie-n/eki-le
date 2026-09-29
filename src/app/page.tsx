@@ -1,7 +1,12 @@
 import Image from "next/image";
 import StationInputForm from "../components/StationInputForm";
+import { getDailyStation } from "../lib/dailyStation";
 
-export default function Home() {
+export default async function Home() {
+
+  const dailyStation = await getDailyStation();
+  console.log("Daily Station:", dailyStation?.station.nameRomaji);
+
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
@@ -13,6 +18,7 @@ export default function Home() {
             Guess a station here:
           </p>
           <StationInputForm />
+          <p className="text-zinc-500">{dailyStation?.station.nameRomaji}</p>
           
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
