@@ -23,6 +23,7 @@ export async function getDailyStation() {
     await generateStationSequence();
   }
 
+  // If the daily station sequence is empty, generate a new sequence
   let totalStations = await prisma.dailyStationSequence.count();
   if (totalStations === 0) {
     await generateStationSequence();
@@ -58,10 +59,10 @@ export async function getDailyStation() {
 
 
   // Update the playDate for the current station to today, so we know when it was last played
-  //await prisma.dailyStationSequence.update({
-    //where: { dayIndex: sequenceStatus.currentDayIndex },
-    //data: { playDate: today }
-  //});
+  await prisma.dailyStationSequence.update({
+    where: { dayIndex: sequenceStatus.currentDayIndex },
+    data: { playDate: today }
+  });
 
   return dailyStation;
 }
