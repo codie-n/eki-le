@@ -1,8 +1,8 @@
-import { PrismaClient } from '../src/generated/prisma/client';
-import { PrismaPg } from '@prisma/adapter-pg';
-import pg from 'pg';
-import * as fs from 'fs';
-import * as path from 'path';
+import { PrismaClient } from "../src/generated/prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
+import pg from "pg";
+import * as fs from "fs";
+import * as path from "path";
 
 // ECreate a native pool connection using your environment variable setup
 const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL, });
@@ -14,18 +14,18 @@ const adapter = new PrismaPg(pool);
 const prisma = new PrismaClient({ adapter });
 
 async function main() {
-  console.log('Starting Eki-le database seed engine...');
+  console.log("Starting Eki-le database seed engine...");
 
   // Read raw station data from your JSON file
-  const filePath = path.join(__dirname, './data/stations.json');
-  const rawData = fs.readFileSync(filePath, 'utf-8');
+  const filePath = path.join(__dirname, "./data/stations.json");
+  const rawData = fs.readFileSync(filePath, "utf-8");
   const stations = JSON.parse(rawData);
 
   console.log(`Loaded ${stations.length} stations from JSON.`);
 
   // Clear existing table rows to prevent primary key collisions or duplicate data rows
   await prisma.station.deleteMany({});
-  console.log('Cleared existing stations from the local database table.');
+  console.log("Cleared existing stations from the local database table.");
 
   // Create entries inside the database
   for (const station of stations) {
@@ -53,7 +53,7 @@ async function main() {
 
 main()
   .catch((error) => {
-    console.error('Eki-le database seeding failed:', error);
+    console.error("Eki-le database seeding failed:", error);
     process.exit(1);
   })
   .finally(async () => {

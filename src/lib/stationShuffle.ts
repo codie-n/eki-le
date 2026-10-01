@@ -1,7 +1,7 @@
 import { prisma } from "./prisma";
 
 export async function generateStationSequence() {
-  console.log('Initializing station shuffle...');
+  console.log("Initializing station shuffle...");
 
   // Fetch the top 365 station IDs sorted by passenger volume rank from the database
   const topStations = await prisma.station.findMany({
