@@ -33,8 +33,7 @@ async function main() {
       data: {
         nameRomaji: station.nameRomaji,
         nameKanji: station.nameKanji,
-        kanjiLength: station.kanjiLength,
-        romajiSearch: station.romajiSearch,
+        acceptedNames: station.acceptedNames,
         prefecture: station.prefecture,
         municipality: station.municipality,
         latitude: station.latitude,

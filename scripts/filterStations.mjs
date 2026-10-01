@@ -17,8 +17,8 @@ const boundaryData = boundaryFiles.flatMap((file) => {
 
 // Filters the station data to only include stations that are within the boundaries of the Greater Tokyo Area
 const filteredStations = stationData.features.filter((station) => {
-    // Finds the midpoint of a station's two coordinates
-    const midpoint = turf.midpoint(station.geometry.coordinates[0], station.geometry.coordinates[1]);
+    // Finds the midpoint of a station from all of its coordinates
+    const midpoint = turf.along(station, turf.length(station) / 2);
 
     return boundaryData.some((boundary) => {
         // Returns true if the midpoint is with the boundary polygon

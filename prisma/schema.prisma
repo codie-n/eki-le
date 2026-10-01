@@ -16,8 +16,7 @@ model Station {
   id                 String   @id @default(uuid())
   nameRomaji         String   // e.g., "Shinjuku"
   nameKanji          String   // e.g., "新宿"
-  kanjiLength        Int      // Number of characters
-  romajiSearch       String[] // Lowercase strings with alternate spellings for easy autocomplete indexing
+  acceptedNames      String[] // List of strings for alternate names and spellings for easy autocomplete indexing
 
   // Geographic Hints (Tiles 3 & 7)
   prefecture         String   // e.g., "東京都", "神奈川県"
