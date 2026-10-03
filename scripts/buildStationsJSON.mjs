@@ -14,8 +14,9 @@ for (const station of GTS.features) {
             acceptedNames: [station.properties.S12_001],
             prefecture: null,
             municipality: null,
-            latitudes: [lat],
-            longitudes: [lng],
+            latitude: null,
+            longitude: null,
+            coordinates: [[lng, lat]],
             operators: [station.properties.S12_002],
             lineCount: 1,
             linesList: [station.properties.S12_003],
@@ -32,11 +33,8 @@ for (const station of GTS.features) {
         if(!existingRecord.acceptedNames.includes(station.properties.S12_001)) {
             existingRecord.acceptedNames.push(station.properties.S12_001);
         }
-        if(!existingRecord.latitudes.includes(lat)) {
-            existingRecord.latitudes.push(lat);
-        }
-        if(!existingRecord.longitudes.includes(lng)) {
-            existingRecord.longitudes.push(lng);
+        if (!existingRecord.coordinates.some((coord) => coord[0] === lng && coord[1] === lat)) {
+            existingRecord.coordinates.push([lng, lat]);
         }
         if(!existingRecord.operators.includes(station.properties.S12_002)) {
             existingRecord.operators.push(station.properties.S12_002);
@@ -56,6 +54,15 @@ for (const station of GTS.features) {
         }
         existingRecord.dailyPassengers.push([station.properties.S12_061, station.properties.S12_003]);
     }
+}
+
+for (const station of stationMap.values()) {
+    const points = turf.points(station.coordinates);
+    const center = turf.center(points);
+    const [lng, lat] = center.geometry.coordinates;
+    station.latitude = lat;
+    station.longitude = lng;
+    delete station.coordinates;
 }
 
 const stationJSON = Array.from(stationMap.values());
