@@ -1,0 +1,394 @@
+[
+    {
+        "id": "jr-yamanote",
+        "name": "山手線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-chuo-rapid",
+        "name": "中央線快速",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-chuo-sobu",
+        "name": "中央総武線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-chuo-main",
+        "name": "中央本線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-tokaido",
+        "name": "東海道線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-yokosuka",
+        "name": "横須賀線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-shonan-shinjuku",
+        "name": "湘南新宿ライン",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-keihin-tohoku",
+        "name": "京浜東北線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-sagami",
+        "name": "相模線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-negishi",
+        "name": "根岸線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-yokohama",
+        "name": "横浜線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-nambu",
+        "name": "南武線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-saikyo",
+        "name": "埼京線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-tsurumi",
+        "name": "鶴見線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-ome",
+        "name": "青梅線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-itsukaichi",
+        "name": "五日市線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-hachiko",
+        "name": "八高線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-utsunomiya",
+        "name": "宇都宮線",
+        "operator": "東日本旅客鉄道",
+        "includes": ["東北本線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-takasaki",
+        "name": "高崎線",
+        "operator": "東日本旅客鉄道",
+        "includes": ["東北本線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-kawagoe",
+        "name": "川越線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-joban-rapid",
+        "name": "常磐線快速",
+        "operator": "東日本旅客鉄道",
+        "includes": ["常磐線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-joban-local",
+        "name": "常磐線各駅停車",
+        "operator": "東日本旅客鉄道",
+        "includes": ["常磐線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-sobu-rapid",
+        "name": "総武快速線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-sobu-main",
+        "name": "総武本線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-uchibo",
+        "name": "内房線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-sotobo",
+        "name": "外房線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-narita",
+        "name": "成田線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-togane",
+        "name": "東金線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-keiyo",
+        "name": "京葉線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-musashino",
+        "name": "武蔵野線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "tokyo-monorail-haneda",
+        "name": "東京モノレール羽田空港線",
+        "operator": "東京モノレール",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-ueno-tokyo",
+        "name": "上野東京ライン",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "",
+        "name": "",
+        "operator": "",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+]
