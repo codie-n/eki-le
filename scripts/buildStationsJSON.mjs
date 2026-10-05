@@ -3,6 +3,19 @@ import * as turf from "@turf/turf";
 
 const GTS = JSON.parse(fs.readFileSync("prisma/data/greaterTokyoStations.geojson", "utf-8"));
 
+const boundaryFiles = [
+    "prisma/data/saitamaBoundaries.geojson",
+    "prisma/data/chibaBoundaries.geojson",
+    "prisma/data/tokyoBoundaries.geojson",
+    "prisma/data/kanagawaBoundaries.geojson"
+];
+// Parses all the boundary files and combines them into a single array of "features"
+const boundaryData = boundaryFiles.flatMap((file) => {
+    const data = JSON.parse(fs.readFileSync(file, "utf-8"));
+    return data.features;
+});
+
+// Pulls all necessary information for each station and deals with duplicate group codes
 const stationMap = new Map();
 for (const station of GTS.features) {
     const midpoint = turf.along(station, turf.length(station) / 2);
@@ -56,6 +69,7 @@ for (const station of GTS.features) {
     }
 }
 
+// Finds the center of multiple station coordinates in order to assign the prefecture and municipality
 for (const station of stationMap.values()) {
     const points = turf.points(station.coordinates);
     const center = turf.center(points);
@@ -63,13 +77,20 @@ for (const station of stationMap.values()) {
     station.latitude = lat;
     station.longitude = lng;
     delete station.coordinates;
+    const coord = [lng, lat];
+    boundaryData.some((boundary) => {
+        if (turf.booleanPointInPolygon(coord, boundary)) {
+            station.prefecture = boundary.properties.N03_001;
+            station.municipality = boundary.properties.N03_004;
+        }
+    });
 }
 
-const stationJSON = Array.from(stationMap.values());
+const stationArray = Array.from(stationMap.values());
 
 fs.writeFileSync(
     "prisma/data/stations.json",
-    JSON.stringify(stationJSON, null, 2),
+    JSON.stringify(stationArray, null, 2),
     "utf-8"
 );
 

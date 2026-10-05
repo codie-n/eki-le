@@ -13,7 +13,7 @@ const boundaryFiles = [
 const boundaryData = boundaryFiles.flatMap((file) => {
     const data = JSON.parse(fs.readFileSync(file, "utf-8"));
     return data.features;
-})
+});
 
 // Filters the station data to only include stations that are within the boundaries of the Greater Tokyo Area
 const filteredStations = stationData.features.filter((station) => {
