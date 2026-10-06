@@ -87,7 +87,7 @@
         "id": "jr-saikyo",
         "name": "埼京線",
         "operator": "東日本旅客鉄道",
-        "includes": [],
+        "includes": ["赤羽線"],
         "stationGroupCodes": []
     },
     {
@@ -189,6 +189,20 @@
         "stationGroupCodes": []
     },
     {
+        "id": "jr-kururi",
+        "name": "久留里線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-kashima",
+        "name": "鹿島線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
         "id": "jr-togane",
         "name": "東金線",
         "operator": "東日本旅客鉄道",
@@ -211,9 +225,9 @@
     },
     {
         "id": "tokyo-monorail-haneda",
-        "name": "東京モノレール羽田空港線",
+        "name": "東京モノレール",
         "operator": "東京モノレール",
-        "includes": [],
+        "includes": ["東京モノレール羽田空港線"],
         "stationGroupCodes": []
     },
     {
@@ -500,7 +514,7 @@
         "id": "tobu-urban-park",
         "name": "東武アーバンパークライン",
         "operator": "東武鉄道",
-        "includes": [],
+        "includes": ["野田線"],
         "stationGroupCodes": []
     },
     {
@@ -532,129 +546,353 @@
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-main",
+        "name": "京成本線",
+        "operator": "京成電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-oshiage",
+        "name": "京成押上線",
+        "operator": "京成電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-chiba",
+        "name": "京成千葉線",
+        "operator": "京成電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-chihara",
+        "name": "京成千原線",
+        "operator": "京成電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-higashi-narita",
+        "name": "京成東成田線",
+        "operator": "京成電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-kanamachi",
+        "name": "京成金町線",
+        "operator": "京成電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "keisei-matsudo",
+        "name": "京成松戸線",
+        "operator": "京成電鉄",
+        "includes": ["新京成線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "keisei-narita",
+        "name": "成田空港線",
+        "operator": "京成電鉄",
+        "includes": ["成田スカイアクセス線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "hokuso",
+        "name": "北総線",
+        "operator": "北総鉄道",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "disney",
+        "name": "ディズニーリゾートライン",
+        "operator": "舞浜リゾートライン",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "toyo-rapid",
+        "name": "東葉高速線",
+        "operator": "東葉高速鉄道",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "yurikamome",
+        "name": "ゆりかもめ線",
+        "operator": "ゆりかもめ",
+        "includes": ["新交通ゆりかもめ線", "東京臨海新交通臨海線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "rinkai",
+        "name": "りんかい線",
+        "operator": "東京臨海高速鉄道",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "kodomonokuni",
+        "name": "こどもの国線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "minatomirai",
+        "name": "みなとみらい線",
+        "operator": "横浜高速鉄道",
+        "includes": ["みなとみらい21線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "tokyu-toyoko",
+        "name": "東横線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "tokyu-meguro",
+        "name": "目黒線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "tokyu-denentoshi",
+        "name": "田園都市線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "tokyu-oimachi",
+        "name": "大井町線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "tokyu-ikegami",
+        "name": "池上線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "tokyu-setagaya",
+        "name": "世田谷線",
+        "operator": "東急電鉄",
         "includes": [],
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "tokyu-tamagawa",
+        "name": "東急多摩川線",
+        "operator": "東急電鉄",
         "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "tokyu-shin-yokohama",
+        "name": "東急新横浜線",
+        "operator": "東急電鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "daiyuzan",
+        "name": "大雄山線",
+        "operator": "伊豆箱根鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "sotetsu-main",
+        "name": "相鉄本線",
+        "operator": "相模鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "sotetsu-izumino",
+        "name": "相鉄いずみ野線",
+        "operator": "相模鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "sotetsu-shin-yokohama",
+        "name": "相鉄新横浜線",
+        "operator": "相模鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "ryutetsu-nagareyama",
+        "name": "流山線",
+        "operator": "流鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "blue-line",
+        "name": "ブルーライン",
+        "operator": "横浜市営地下鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "green-line",
+        "name": "グリーンライン",
+        "operator": "横浜市営地下鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "keikyu-main",
+        "name": "京急本線",
+        "operator": "京浜急行電鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "keikyu-kurihama",
+        "name": "京急久里浜線",
+        "operator": "京浜急行電鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "keikyu-zushi",
+        "name": "京急逗子線",
+        "operator": "京浜急行電鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "keikyu-daishi",
+        "name": "京急大師線",
+        "operator": "京浜急行電鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "keikyu-airport",
+        "name": "空港線",
+        "operator": "京浜急行電鉄",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "kanazawa-seaside",
+        "name": "金沢シーサイドライン",
+        "operator": "横浜シーサイドライン",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "jr-gotemba",
+        "name": "御殿場線",
+        "operator": "東海旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "enoden",
+        "name": "江ノ電",
+        "operator": "江ノ島電鉄",
+        "includes": ["江ノ島電鉄線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "shonan-monorail",
+        "name": "湘南モノレール",
+        "operator": "湘南モノレール",
+        "includes": ["湘南モノレール江ノ島線", "江ノ島線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "tama-monorail",
+        "name": "多摩モノレール",
+        "operator": "東京多摩都市モノレール",
+        "includes": ["多摩都市モノレール線", "多摩都市モノレール"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "new-shuttle",
+        "name": "ニューシャトル",
+        "operator": "埼玉新都市交通",
+        "includes": ["伊奈線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "saitama-rapid",
+        "name": "埼玉高速鉄道線",
+        "operator": "埼玉高速鉄道",
+        "includes": ["埼玉スタジアム線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "chichibu-main",
+        "name": "秩父本線",
+        "operator": "秩父鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "tsukuba-express",
+        "name": "つくばエクスプレス",
+        "operator": "首都圏新都市鉄道",
+        "includes": ["常磐新線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "shibayama",
+        "name": "芝山鉄道線",
+        "operator": "芝山鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "yukarigaoka",
+        "name": "ユーカリが丘線",
+        "operator": "山万",
+        "includes": ["山万ユーカリが丘線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "choshi",
+        "name": "銚子電気鉄道線",
+        "operator": "銚子電気鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "kominato",
+        "name": "小湊鐵道線",
+        "operator": "小湊鐵道",
+        "includes": ["小湊鉄道線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "isumi",
+        "name": "いすみ線",
+        "operator": "いすみ鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "chiba-urban-monorail",
+        "name": "千葉都市モノレール",
+        "operator": "千葉都市モノレール",
+        "includes": ["千葉モノレール"],
         "stationGroupCodes": []
     },
     {
