@@ -301,6 +301,13 @@
         "stationGroupCodes": []
     },
     {
+        "id": "hakone-cable-car",
+        "name": "箱根登山ケーブルカー",
+        "operator": "小田急箱根",
+        "includes": ["鋼索線"],
+        "stationGroupCodes": []
+    },
+    {
         "id": "toei-asakusa",
         "name": "浅草線",
         "operator": "都営地下鉄",
@@ -896,10 +903,66 @@
         "stationGroupCodes": []
     },
     {
-        "id": "",
-        "name": "",
-        "operator": "",
+        "id": "shinkansen-tokaido",
+        "name": "東海道新幹線",
+        "operator": "東海旅客鉄道",
         "includes": [],
         "stationGroupCodes": []
     },
+    {
+        "id": "shinkansen-tohoku",
+        "name": "東北新幹線",
+        "operator": "東日本旅客鉄道",
+        "includes": ["北海道新幹線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "shinkansen-joetsu",
+        "name": "上越新幹線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "shinkansen-hokuriku",
+        "name": "北陸新幹線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "shinkansen-yamagata",
+        "name": "山形新幹線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "shinkansen-akita",
+        "name": "秋田新幹線",
+        "operator": "東日本旅客鉄道",
+        "includes": [],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "oyama-cable-car",
+        "name": "大山ケーブルカー",
+        "operator": "大山観光電鉄",
+        "includes": ["大山鋼索線"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "takao-cable-car",
+        "name": "高尾山ケーブルカー",
+        "operator": "高尾登山電鉄",
+        "includes": ["高尾鋼索線", "高尾登山ケーブル", "高尾登山ケーブルカー"],
+        "stationGroupCodes": []
+    },
+    {
+        "id": "mitake-cable-car",
+        "name": "御岳山ケーブルカー",
+        "operator": "御岳登山鉄道",
+        "includes": ["御岳登山ケーブル", "御岳登山ケーブルカー", "御岳鋼索線"],
+        "stationGroupCodes": []
+    }
 ]
