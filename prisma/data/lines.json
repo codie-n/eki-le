@@ -193,21 +193,21 @@
         "name": "久留里線",
         "operator": "東日本旅客鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["004882", "004856", "004857", "004860", "004874", "004875", "004926", "004957", "005030", "005074", "005127", "005173", "005209", "005274"]
     },
     {
         "id": "jr-kashima",
         "name": "鹿島線",
         "operator": "東日本旅客鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["002931", "002923", "002890"]
     },
     {
         "id": "jr-togane",
         "name": "東金線",
         "operator": "東日本旅客鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["004450", "004376", "004339", "004289", "004189"]
     },
     {
         "id": "jr-keiyo",
