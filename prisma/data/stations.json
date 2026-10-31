@@ -8279,18 +8279,21 @@
     "nameRomaji": null,
     "nameKanji": "南越谷",
     "acceptedNames": [
-      "南越谷"
+      "南越谷",
+      "新越谷"
     ],
     "prefecture": "埼玉県",
     "municipality": "越谷市",
-    "latitude": 35.876045116275634,
-    "longitude": 139.79114999929214,
+    "latitude": 35.875805058181385,
+    "longitude": 139.7904825002455,
     "operators": [
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "東武鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "武蔵野線"
+      "武蔵野線",
+      "伊勢崎線"
     ],
     "duplicateCodes": [
       [
@@ -8314,6 +8317,10 @@
       [
         144284,
         "武蔵野線"
+      ],
+      [
+        143083,
+        "伊勢崎線"
       ]
     ],
     "passengerRank": null,
@@ -8358,50 +8365,6 @@
       [
         34766,
         "常磐線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "新越谷",
-    "acceptedNames": [
-      "新越谷"
-    ],
-    "prefecture": "埼玉県",
-    "municipality": "越谷市",
-    "latitude": 35.87556500008713,
-    "longitude": 139.78981500119886,
-    "operators": [
-      "東武鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "伊勢崎線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "伊勢崎線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "伊勢崎線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "伊勢崎線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        143083,
-        "伊勢崎線"
       ]
     ],
     "passengerRank": null,
@@ -11567,18 +11530,21 @@
     "nameRomaji": null,
     "nameKanji": "北朝霞",
     "acceptedNames": [
-      "北朝霞"
+      "北朝霞",
+      "朝霞台"
     ],
     "prefecture": "埼玉県",
     "municipality": "朝霞市",
-    "latitude": 35.81547000185889,
-    "longitude": 139.5872299963714,
+    "latitude": 35.81490750183134,
+    "longitude": 139.5872650000352,
     "operators": [
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "東武鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "武蔵野線"
+      "武蔵野線",
+      "東上本線"
     ],
     "duplicateCodes": [
       [
@@ -11602,6 +11568,10 @@
       [
         136010,
         "武蔵野線"
+      ],
+      [
+        152331,
+        "東上本線"
       ]
     ],
     "passengerRank": null,
@@ -11734,50 +11704,6 @@
       [
         13889,
         "日暮里・舎人ライナー"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "朝霞台",
-    "acceptedNames": [
-      "朝霞台"
-    ],
-    "prefecture": "埼玉県",
-    "municipality": "朝霞市",
-    "latitude": 35.814345001803794,
-    "longitude": 139.58730000369897,
-    "operators": [
-      "東武鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "東上本線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "東上本線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "東上本線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "東上本線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        152331,
-        "東上本線"
       ]
     ],
     "passengerRank": null,
@@ -13391,18 +13317,21 @@
     "nameRomaji": null,
     "nameKanji": "八柱",
     "acceptedNames": [
-      "八柱"
+      "八柱",
+      "新八柱"
     ],
     "prefecture": "千葉県",
     "municipality": "松戸市",
-    "latitude": 35.7914383210891,
-    "longitude": 139.9375583202547,
+    "latitude": 35.79136416057192,
+    "longitude": 139.9380566605036,
     "operators": [
-      "京成電鉄"
+      "京成電鉄",
+      "東日本旅客鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "松戸線"
+      "松戸線",
+      "武蔵野線"
     ],
     "duplicateCodes": [
       [
@@ -13426,47 +13355,7 @@
       [
         41132,
         "松戸線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "新八柱",
-    "acceptedNames": [
-      "新八柱"
-    ],
-    "prefecture": "千葉県",
-    "municipality": "松戸市",
-    "latitude": 35.791290000054744,
-    "longitude": 139.9385550007525,
-    "operators": [
-      "東日本旅客鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "武蔵野線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "武蔵野線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "武蔵野線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "武蔵野線"
-      ]
-    ],
-    "dailyPassengers": [
+      ],
       [
         47424,
         "武蔵野線"
@@ -18019,20 +17908,23 @@
     "nameRomaji": null,
     "nameKanji": "王子",
     "acceptedNames": [
-      "王子"
+      "王子",
+      "王子駅前"
     ],
     "prefecture": "東京都",
     "municipality": "北区",
     "latitude": 35.75339535202305,
-    "longitude": 139.7377497854372,
+    "longitude": 139.73776343732095,
     "operators": [
       "東京地下鉄",
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "東京都"
     ],
-    "lineCount": 2,
+    "lineCount": 3,
     "linesList": [
       "7号線南北線",
-      "東北線"
+      "東北線",
+      "荒川線"
     ],
     "duplicateCodes": [
       [
@@ -18060,6 +17952,10 @@
       [
         117716,
         "東北線"
+      ],
+      [
+        9239,
+        "荒川線"
       ]
     ],
     "passengerRank": null,
@@ -18148,50 +18044,6 @@
       [
         16387,
         "松戸線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "王子駅前",
-    "acceptedNames": [
-      "王子駅前"
-    ],
-    "prefecture": "東京都",
-    "municipality": "北区",
-    "latitude": 35.752741551997644,
-    "longitude": 139.73823730988073,
-    "operators": [
-      "東京都"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "荒川線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "荒川線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "荒川線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "荒川線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        9239,
-        "荒川線"
       ]
     ],
     "passengerRank": null,
@@ -22814,18 +22666,21 @@
     "nameRomaji": null,
     "nameKanji": "大塚",
     "acceptedNames": [
-      "大塚"
+      "大塚",
+      "大塚駅前"
     ],
     "prefecture": "東京都",
     "municipality": "豊島区",
-    "latitude": 35.731785004054636,
-    "longitude": 139.72794000304546,
+    "latitude": 35.73170250203357,
+    "longitude": 139.72869750146404,
     "operators": [
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "東京都"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "山手線"
+      "山手線",
+      "荒川線"
     ],
     "duplicateCodes": [
       [
@@ -22849,6 +22704,10 @@
       [
         108702,
         "山手線"
+      ],
+      [
+        7990,
+        "荒川線"
       ]
     ],
     "passengerRank": null,
@@ -22893,94 +22752,6 @@
       [
         18180,
         "押上線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "大塚駅前",
-    "acceptedNames": [
-      "大塚駅前"
-    ],
-    "prefecture": "東京都",
-    "municipality": "豊島区",
-    "latitude": 35.731620000012505,
-    "longitude": 139.72945499988262,
-    "operators": [
-      "東京都"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "荒川線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "荒川線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "荒川線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "荒川線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        7990,
-        "荒川線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "池袋",
-    "acceptedNames": [
-      "池袋"
-    ],
-    "prefecture": "東京都",
-    "municipality": "豊島区",
-    "latitude": 35.73148000566307,
-    "longitude": 139.70772000440715,
-    "operators": [
-      "東京地下鉄"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "13号線副都心線"
-    ],
-    "duplicateCodes": [
-      [
-        2,
-        "13号線副都心線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "13号線副都心線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "13号線副都心線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        0,
-        "13号線副都心線"
       ]
     ],
     "passengerRank": null,
@@ -23346,16 +23117,17 @@
     ],
     "prefecture": "東京都",
     "municipality": "豊島区",
-    "latitude": 35.72942000003827,
-    "longitude": 139.7110849950105,
+    "latitude": 35.729570002844774,
+    "longitude": 139.70952999729946,
     "operators": [
-      "西武鉄道",
       "東京地下鉄",
+      "西武鉄道",
       "東日本旅客鉄道",
       "東武鉄道"
     ],
-    "lineCount": 6,
+    "lineCount": 7,
     "linesList": [
+      "13号線副都心線",
       "池袋線",
       "4号線丸ノ内線",
       "8号線有楽町線",
@@ -23365,24 +23137,24 @@
     ],
     "duplicateCodes": [
       [
-        1,
-        "池袋線"
+        2,
+        "13号線副都心線"
       ],
       [
-        2,
-        "8号線有楽町線"
+        1,
+        "池袋線"
       ]
     ],
     "dataCodes": [
       [
         1,
-        "池袋線"
+        "13号線副都心線"
       ]
     ],
     "notes": [
       [
         null,
-        "池袋線"
+        "13号線副都心線"
       ],
       [
         "8号線有楽町線・13号線副都心線を含む",
@@ -23394,6 +23166,10 @@
       ]
     ],
     "dailyPassengers": [
+      [
+        0,
+        "13号線副都心線"
+      ],
       [
         428121,
         "池袋線"
@@ -30384,20 +30160,23 @@
     "nameRomaji": null,
     "nameKanji": "船橋",
     "acceptedNames": [
-      "船橋"
+      "船橋",
+      "京成船橋"
     ],
     "prefecture": "千葉県",
     "municipality": "船橋市",
-    "latitude": 35.70191677295888,
-    "longitude": 139.9845198879348,
+    "latitude": 35.701066701821446,
+    "longitude": 139.98477329717622,
     "operators": [
       "東日本旅客鉄道",
-      "東武鉄道"
+      "東武鉄道",
+      "京成電鉄"
     ],
-    "lineCount": 2,
+    "lineCount": 3,
     "linesList": [
       "総武線",
-      "野田線"
+      "野田線",
+      "本線"
     ],
     "duplicateCodes": [
       [
@@ -30425,6 +30204,10 @@
       [
         116250,
         "野田線"
+      ],
+      [
+        90840,
+        "本線"
       ]
     ],
     "passengerRank": null,
@@ -30927,50 +30710,6 @@
   },
   {
     "nameRomaji": null,
-    "nameKanji": "京成船橋",
-    "acceptedNames": [
-      "京成船橋"
-    ],
-    "prefecture": "千葉県",
-    "municipality": "船橋市",
-    "latitude": 35.70003340312171,
-    "longitude": 139.98518159417432,
-    "operators": [
-      "京成電鉄"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "本線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "本線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "本線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "本線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        90840,
-        "本線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
     "nameKanji": "亀戸水神",
     "acceptedNames": [
       "亀戸水神"
@@ -31218,50 +30957,6 @@
       [
         176728,
         "中央線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "立川北",
-    "acceptedNames": [
-      "立川北"
-    ],
-    "prefecture": "東京都",
-    "municipality": "立川市",
-    "latitude": 35.699525000002595,
-    "longitude": 139.4126649998605,
-    "operators": [
-      "多摩都市モノレール"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "多摩都市モノレール線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "多摩都市モノレール線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "多摩都市モノレール線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "多摩都市モノレール線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        44015,
-        "多摩都市モノレール線"
       ]
     ],
     "passengerRank": null,
@@ -31694,43 +31389,47 @@
   },
   {
     "nameRomaji": null,
-    "nameKanji": "立川",
+    "nameKanji": "立川北",
     "acceptedNames": [
-      "立川"
+      "立川北",
+      "立川",
+      "立川南"
     ],
     "prefecture": "東京都",
     "municipality": "立川市",
-    "latitude": 35.69790750810991,
-    "longitude": 139.41403500195275,
+    "latitude": 35.69784750005759,
+    "longitude": 139.41343999957286,
     "operators": [
+      "多摩都市モノレール",
       "東日本旅客鉄道"
     ],
-    "lineCount": 3,
+    "lineCount": 4,
     "linesList": [
+      "多摩都市モノレール線",
       "青梅線",
       "中央線",
       "南武線"
     ],
     "duplicateCodes": [
       [
-        2,
-        "青梅線"
+        1,
+        "多摩都市モノレール線"
       ],
       [
-        1,
-        "中央線"
+        2,
+        "青梅線"
       ]
     ],
     "dataCodes": [
       [
         1,
-        "青梅線"
+        "多摩都市モノレール線"
       ]
     ],
     "notes": [
       [
         null,
-        "青梅線"
+        "多摩都市モノレール線"
       ],
       [
         "青梅線・南武線を含む",
@@ -31738,6 +31437,10 @@
       ]
     ],
     "dailyPassengers": [
+      [
+        44015,
+        "多摩都市モノレール線"
+      ],
       [
         0,
         "青梅線"
@@ -31757,6 +31460,10 @@
       [
         0,
         "南武線"
+      ],
+      [
+        31877,
+        "多摩都市モノレール線"
       ]
     ],
     "passengerRank": null,
@@ -32105,50 +31812,6 @@
   },
   {
     "nameRomaji": null,
-    "nameKanji": "両国",
-    "acceptedNames": [
-      "両国"
-    ],
-    "prefecture": "東京都",
-    "municipality": "墨田区",
-    "latitude": 35.696770096449605,
-    "longitude": 139.79743179027653,
-    "operators": [
-      "東京都"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "12号線大江戸線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "12号線大江戸線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "12号線大江戸線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "12号線大江戸線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        32508,
-        "12号線大江戸線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
     "nameKanji": "西武新宿",
     "acceptedNames": [
       "西武新宿"
@@ -32186,50 +31849,6 @@
       [
         147390,
         "新宿線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "立川南",
-    "acceptedNames": [
-      "立川南"
-    ],
-    "prefecture": "東京都",
-    "municipality": "立川市",
-    "latitude": 35.69617000011258,
-    "longitude": 139.41257499937927,
-    "operators": [
-      "多摩都市モノレール"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "多摩都市モノレール線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "多摩都市モノレール線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "多摩都市モノレール線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "多摩都市モノレール線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        31877,
-        "多摩都市モノレール線"
       ]
     ],
     "passengerRank": null,
@@ -32350,34 +31969,40 @@
     ],
     "prefecture": "東京都",
     "municipality": "墨田区",
-    "latitude": 35.69575500537412,
-    "longitude": 139.7933500012151,
+    "latitude": 35.69626255091186,
+    "longitude": 139.7953908957458,
     "operators": [
+      "東京都",
       "東日本旅客鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
+      "12号線大江戸線",
       "総武線"
     ],
     "duplicateCodes": [
       [
         1,
-        "総武線"
+        "12号線大江戸線"
       ]
     ],
     "dataCodes": [
       [
         1,
-        "総武線"
+        "12号線大江戸線"
       ]
     ],
     "notes": [
       [
         null,
-        "総武線"
+        "12号線大江戸線"
       ]
     ],
     "dailyPassengers": [
+      [
+        32508,
+        "12号線大江戸線"
+      ],
       [
         72096,
         "総武線"
@@ -35810,21 +35435,22 @@
     ],
     "prefecture": "東京都",
     "municipality": "千代田区",
-    "latitude": 35.68145000054912,
+    "latitude": 35.679813280085554,
     "longitude": 139.766453695208,
     "operators": [
       "東海旅客鉄道",
       "東京地下鉄",
       "東日本旅客鉄道"
     ],
-    "lineCount": 6,
+    "lineCount": 7,
     "linesList": [
       "東海道新幹線",
       "4号線丸ノ内線",
       "総武線",
       "東海道線",
       "東北新幹線",
-      "東北線"
+      "東北線",
+      "京葉線"
     ],
     "duplicateCodes": [
       [
@@ -35896,6 +35522,10 @@
       [
         0,
         "東北線"
+      ],
+      [
+        0,
+        "京葉線"
       ]
     ],
     "passengerRank": null,
@@ -36455,50 +36085,6 @@
       [
         9088,
         "多摩都市モノレール線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "東京",
-    "acceptedNames": [
-      "東京"
-    ],
-    "prefecture": "東京都",
-    "municipality": "千代田区",
-    "latitude": 35.677691560005734,
-    "longitude": 139.7652370388819,
-    "operators": [
-      "東日本旅客鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "京葉線"
-    ],
-    "duplicateCodes": [
-      [
-        2,
-        "京葉線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "京葉線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "京葉線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        0,
-        "京葉線"
       ]
     ],
     "passengerRank": null,
@@ -37155,7 +36741,8 @@
     "nameRomaji": null,
     "nameKanji": "笹塚",
     "acceptedNames": [
-      "笹塚"
+      "笹塚",
+      "笹塚"
     ],
     "prefecture": "東京都",
     "municipality": "渋谷区",
@@ -37319,18 +36906,21 @@
     "nameRomaji": null,
     "nameKanji": "京成幕張本郷",
     "acceptedNames": [
-      "京成幕張本郷"
+      "京成幕張本郷",
+      "幕張本郷"
     ],
     "prefecture": "千葉県",
     "municipality": "千葉市",
-    "latitude": 35.67292000011254,
-    "longitude": 140.04167500028942,
+    "latitude": 35.67291245716001,
+    "longitude": 140.04187494845462,
     "operators": [
-      "京成電鉄"
+      "京成電鉄",
+      "東日本旅客鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "千葉線"
+      "千葉線",
+      "総武線"
     ],
     "duplicateCodes": [
       [
@@ -37354,47 +36944,7 @@
       [
         15951,
         "千葉線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "幕張本郷",
-    "acceptedNames": [
-      "幕張本郷"
-    ],
-    "prefecture": "千葉県",
-    "municipality": "千葉市",
-    "latitude": 35.67290491420747,
-    "longitude": 140.04207489661982,
-    "operators": [
-      "東日本旅客鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "総武線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "総武線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "総武線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "総武線"
-      ]
-    ],
-    "dailyPassengers": [
+      ],
       [
         52018,
         "総武線"
@@ -41444,50 +40994,6 @@
   },
   {
     "nameRomaji": null,
-    "nameKanji": "モノレール浜松町",
-    "acceptedNames": [
-      "モノレール浜松町"
-    ],
-    "prefecture": "東京都",
-    "municipality": "港区",
-    "latitude": 35.655745000014875,
-    "longitude": 139.75666999954547,
-    "operators": [
-      "東京モノレール"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "東京モノレール羽田空港線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "東京モノレール羽田空港線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "東京モノレール羽田空港線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "東京モノレール羽田空港線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        94252,
-        "東京モノレール羽田空港線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
     "nameKanji": "八王子",
     "acceptedNames": [
       "八王子"
@@ -41550,40 +41056,47 @@
   },
   {
     "nameRomaji": null,
-    "nameKanji": "浜松町",
+    "nameKanji": "モノレール浜松町",
     "acceptedNames": [
+      "モノレール浜松町",
       "浜松町"
     ],
     "prefecture": "東京都",
     "municipality": "港区",
-    "latitude": 35.655410000099295,
-    "longitude": 139.75712499858327,
+    "latitude": 35.655577500057085,
+    "longitude": 139.75689749906437,
     "operators": [
+      "東京モノレール",
       "東日本旅客鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
+      "東京モノレール羽田空港線",
       "東海道線"
     ],
     "duplicateCodes": [
       [
         1,
-        "東海道線"
+        "東京モノレール羽田空港線"
       ]
     ],
     "dataCodes": [
       [
         1,
-        "東海道線"
+        "東京モノレール羽田空港線"
       ]
     ],
     "notes": [
       [
         null,
-        "東海道線"
+        "東京モノレール羽田空港線"
       ]
     ],
     "dailyPassengers": [
+      [
+        94252,
+        "東京モノレール羽田空港線"
+      ],
       [
         267804,
         "東海道線"
@@ -44952,18 +44465,21 @@
     "nameRomaji": null,
     "nameKanji": "舞浜",
     "acceptedNames": [
-      "舞浜"
+      "舞浜",
+      "リゾートゲートウェイ･ステーション"
     ],
     "prefecture": "千葉県",
     "municipality": "浦安市",
-    "latitude": 35.63616000421537,
-    "longitude": 139.88372000467572,
+    "latitude": 35.6356350029019,
+    "longitude": 139.88433500311356,
     "operators": [
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "舞浜リゾートライン"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "京葉線"
+      "京葉線",
+      "ディズニーリゾートライン"
     ],
     "duplicateCodes": [
       [
@@ -44987,6 +44503,10 @@
       [
         158806,
         "京葉線"
+      ],
+      [
+        44725,
+        "ディズニーリゾートライン"
       ]
     ],
     "passengerRank": null,
@@ -45169,50 +44689,6 @@
       [
         28418,
         "東海道線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "リゾートゲートウェイ･ステーション",
-    "acceptedNames": [
-      "リゾートゲートウェイ･ステーション"
-    ],
-    "prefecture": "千葉県",
-    "municipality": "浦安市",
-    "latitude": 35.63511000158843,
-    "longitude": 139.88495000155143,
-    "operators": [
-      "舞浜リゾートライン"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "ディズニーリゾートライン"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "ディズニーリゾートライン"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "ディズニーリゾートライン"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "ディズニーリゾートライン"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        44725,
-        "ディズニーリゾートライン"
       ]
     ],
     "passengerRank": null,
@@ -48575,22 +48051,25 @@
     "nameRomaji": null,
     "nameKanji": "千葉",
     "acceptedNames": [
-      "千葉"
+      "千葉",
+      "京成千葉"
     ],
     "prefecture": "千葉県",
     "municipality": "千葉市",
-    "latitude": 35.61279792303722,
-    "longitude": 140.1135544070707,
+    "latitude": 35.61256234419278,
+    "longitude": 140.11371806891339,
     "operators": [
       "千葉都市モノレール",
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "京成電鉄"
     ],
-    "lineCount": 4,
+    "lineCount": 5,
     "linesList": [
       "1号線",
       "2号線",
       "外房線",
-      "総武線"
+      "総武線",
+      "千葉線"
     ],
     "duplicateCodes": [
       [
@@ -48634,6 +48113,10 @@
       [
         208450,
         "総武線"
+      ],
+      [
+        31702,
+        "千葉線"
       ]
     ],
     "passengerRank": null,
@@ -48678,50 +48161,6 @@
       [
         22230,
         "大井町線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "京成千葉",
-    "acceptedNames": [
-      "京成千葉"
-    ],
-    "prefecture": "千葉県",
-    "municipality": "千葉市",
-    "latitude": 35.61162000035951,
-    "longitude": 140.11435500029503,
-    "operators": [
-      "京成電鉄"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "千葉線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "千葉線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "千葉線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "千葉線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        31702,
-        "千葉線"
       ]
     ],
     "passengerRank": null,
@@ -52125,21 +51564,26 @@
     ],
     "prefecture": "神奈川県",
     "municipality": "川崎市",
-    "latitude": 35.57610150941861,
-    "longitude": 139.65963608428206,
+    "latitude": 35.57561960322319,
+    "longitude": 139.66146888218833,
     "operators": [
       "東急電鉄",
       "東日本旅客鉄道"
     ],
-    "lineCount": 2,
+    "lineCount": 3,
     "linesList": [
       "東横線",
-      "南武線"
+      "南武線",
+      "東海道線"
     ],
     "duplicateCodes": [
       [
         1,
         "東横線"
+      ],
+      [
+        2,
+        "東海道線"
       ]
     ],
     "dataCodes": [
@@ -52166,6 +51610,10 @@
       [
         226904,
         "南武線"
+      ],
+      [
+        0,
+        "東海道線"
       ]
     ],
     "passengerRank": null,
@@ -52210,50 +51658,6 @@
       [
         19463,
         "東急多摩川線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "武蔵小杉",
-    "acceptedNames": [
-      "武蔵小杉"
-    ],
-    "prefecture": "神奈川県",
-    "municipality": "川崎市",
-    "latitude": 35.57467062416489,
-    "longitude": 139.66336091088448,
-    "operators": [
-      "東日本旅客鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "東海道線"
-    ],
-    "duplicateCodes": [
-      [
-        2,
-        "東海道線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "東海道線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "東海道線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        0,
-        "東海道線"
       ]
     ],
     "passengerRank": null,
@@ -53957,18 +53361,21 @@
     "nameRomaji": null,
     "nameKanji": "羽田空港第2ターミナル",
     "acceptedNames": [
-      "羽田空港第2ターミナル"
+      "羽田空港第2ターミナル",
+      "羽田空港第1・第2ターミナル"
     ],
     "prefecture": "東京都",
     "municipality": "大田区",
-    "latitude": 35.5507950007282,
-    "longitude": 139.78820000332647,
+    "latitude": 35.55025713349607,
+    "longitude": 139.7870284459703,
     "operators": [
-      "東京モノレール"
+      "東京モノレール",
+      "京浜急行電鉄"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "東京モノレール羽田空港線"
+      "東京モノレール羽田空港線",
+      "空港線"
     ],
     "duplicateCodes": [
       [
@@ -53992,6 +53399,10 @@
       [
         24342,
         "東京モノレール羽田空港線"
+      ],
+      [
+        111697,
+        "空港線"
       ]
     ],
     "passengerRank": null,
@@ -54168,50 +53579,6 @@
       [
         30842,
         "本線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "羽田空港第1・第2ターミナル",
-    "acceptedNames": [
-      "羽田空港第1・第2ターミナル"
-    ],
-    "prefecture": "東京都",
-    "municipality": "大田区",
-    "latitude": 35.549719266263935,
-    "longitude": 139.78585688861415,
-    "operators": [
-      "京浜急行電鉄"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "空港線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "空港線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "空港線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "空港線"
-      ]
-    ],
-    "dailyPassengers": [
-      [
-        111697,
-        "空港線"
       ]
     ],
     "passengerRank": null,
@@ -58171,18 +57538,21 @@
     "nameRomaji": null,
     "nameKanji": "京急新子安",
     "acceptedNames": [
-      "京急新子安"
+      "京急新子安",
+      "新子安"
     ],
     "prefecture": "神奈川県",
     "municipality": "横浜市",
-    "latitude": 35.48722000099039,
-    "longitude": 139.65584999884152,
+    "latitude": 35.48699857207161,
+    "longitude": 139.65495214213763,
     "operators": [
-      "京浜急行電鉄"
+      "京浜急行電鉄",
+      "東日本旅客鉄道"
     ],
-    "lineCount": 1,
+    "lineCount": 2,
     "linesList": [
-      "本線"
+      "本線",
+      "東海道線"
     ],
     "duplicateCodes": [
       [
@@ -58206,47 +57576,7 @@
       [
         7292,
         "本線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "新子安",
-    "acceptedNames": [
-      "新子安"
-    ],
-    "prefecture": "神奈川県",
-    "municipality": "横浜市",
-    "latitude": 35.48677714315284,
-    "longitude": 139.65405428543374,
-    "operators": [
-      "東日本旅客鉄道"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "東海道線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "東海道線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "東海道線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "東海道線"
-      ]
-    ],
-    "dailyPassengers": [
+      ],
       [
         41780,
         "東海道線"
@@ -58770,19 +58100,22 @@
     "nameRomaji": null,
     "nameKanji": "東神奈川",
     "acceptedNames": [
-      "東神奈川"
+      "東神奈川",
+      "京急東神奈川"
     ],
     "prefecture": "神奈川県",
     "municipality": "横浜市",
-    "latitude": 35.47787500241377,
-    "longitude": 139.6331649922445,
+    "latitude": 35.477715001691976,
+    "longitude": 139.6340449949911,
     "operators": [
-      "東日本旅客鉄道"
+      "東日本旅客鉄道",
+      "京浜急行電鉄"
     ],
-    "lineCount": 2,
+    "lineCount": 3,
     "linesList": [
       "横浜線",
-      "東海道線"
+      "東海道線",
+      "本線"
     ],
     "duplicateCodes": [
       [
@@ -58818,47 +58151,7 @@
       [
         0,
         "東海道線"
-      ]
-    ],
-    "passengerRank": null,
-    "passengerTier": null
-  },
-  {
-    "nameRomaji": null,
-    "nameKanji": "京急東神奈川",
-    "acceptedNames": [
-      "京急東神奈川"
-    ],
-    "prefecture": "神奈川県",
-    "municipality": "横浜市",
-    "latitude": 35.477555000970185,
-    "longitude": 139.63492499773767,
-    "operators": [
-      "京浜急行電鉄"
-    ],
-    "lineCount": 1,
-    "linesList": [
-      "本線"
-    ],
-    "duplicateCodes": [
-      [
-        1,
-        "本線"
-      ]
-    ],
-    "dataCodes": [
-      [
-        1,
-        "本線"
-      ]
-    ],
-    "notes": [
-      [
-        null,
-        "本線"
-      ]
-    ],
-    "dailyPassengers": [
+      ],
       [
         22710,
         "本線"
@@ -72317,6 +71610,50 @@
       [
         16473,
         "東急新横浜線"
+      ]
+    ],
+    "passengerRank": null,
+    "passengerTier": null
+  },
+  {
+    "nameRomaji": null,
+    "nameKanji": "大井競馬場前",
+    "acceptedNames": [
+      "大井競馬場前"
+    ],
+    "prefecture": null,
+    "municipality": null,
+    "latitude": 35.595030000006616,
+    "longitude": 139.74719999974013,
+    "operators": [
+      "東京モノレール"
+    ],
+    "lineCount": 1,
+    "linesList": [
+      "東京モノレール羽田空港線"
+    ],
+    "duplicateCodes": [
+      [
+        1,
+        "東京モノレール羽田空港線"
+      ]
+    ],
+    "dataCodes": [
+      [
+        1,
+        "東京モノレール羽田空港線"
+      ]
+    ],
+    "notes": [
+      [
+        null,
+        "東京モノレール羽田空港線"
+      ]
+    ],
+    "dailyPassengers": [
+      [
+        11828,
+        "東京モノレール羽田空港線"
       ]
     ],
     "passengerRank": null,
