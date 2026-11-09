@@ -22666,21 +22666,18 @@
     "nameRomaji": null,
     "nameKanji": "大塚",
     "acceptedNames": [
-      "大塚",
-      "大塚駅前"
+      "大塚"
     ],
     "prefecture": "東京都",
     "municipality": "豊島区",
-    "latitude": 35.73170250203357,
-    "longitude": 139.72869750146404,
+    "latitude": 35.731785004054636,
+    "longitude": 139.72794000304546,
     "operators": [
-      "東日本旅客鉄道",
-      "東京都"
+      "東日本旅客鉄道"
     ],
-    "lineCount": 2,
+    "lineCount": 1,
     "linesList": [
-      "山手線",
-      "荒川線"
+      "山手線"
     ],
     "duplicateCodes": [
       [
@@ -22704,10 +22701,6 @@
       [
         108702,
         "山手線"
-      ],
-      [
-        7990,
-        "荒川線"
       ]
     ],
     "passengerRank": null,
@@ -22752,6 +22745,50 @@
       [
         18180,
         "押上線"
+      ]
+    ],
+    "passengerRank": null,
+    "passengerTier": null
+  },
+  {
+    "nameRomaji": null,
+    "nameKanji": "大塚駅前",
+    "acceptedNames": [
+      "大塚駅前"
+    ],
+    "prefecture": "東京都",
+    "municipality": "豊島区",
+    "latitude": 35.731620000012505,
+    "longitude": 139.72945499988262,
+    "operators": [
+      "東京都"
+    ],
+    "lineCount": 1,
+    "linesList": [
+      "荒川線"
+    ],
+    "duplicateCodes": [
+      [
+        1,
+        "荒川線"
+      ]
+    ],
+    "dataCodes": [
+      [
+        1,
+        "荒川線"
+      ]
+    ],
+    "notes": [
+      [
+        null,
+        "荒川線"
+      ]
+    ],
+    "dailyPassengers": [
+      [
+        7990,
+        "荒川線"
       ]
     ],
     "passengerRank": null,
