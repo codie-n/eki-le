@@ -403,21 +403,21 @@
         "name": "山口線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003201", "003192", "003181"]
     },
     {
         "id": "seibu-tamagawa",
         "name": "多摩川線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003590", "003653", "003790", "003873", "003943", "003944"]
     },
     {
         "id": "seibu-tamako",
         "name": "多摩湖線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003606", "003455", "003382", "003312", "003287", "003231", "003201"]
     },
     {
         "id": "seibu-seibuen",
