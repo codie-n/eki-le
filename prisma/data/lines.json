@@ -424,21 +424,21 @@
         "name": "西武園線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003220", "003197"]
     },
     {
         "id": "seibu-kokubunji",
         "name": "国分寺線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003606", "003520", "003450", "003333", "003220"]
     },
     {
         "id": "seibu-haijima",
         "name": "拝島線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003340", "003312", "003333", "003365", "003371", "003404", "003428", "003462"]
     },
     {
         "id": "seibu-shinjuku",
