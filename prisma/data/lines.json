@@ -445,21 +445,21 @@
         "name": "新宿線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003648", "003508", "003491", "003495", "003489", "003475", "003473", "003453", "003451", "003444", "003440", "003437", "003427", "003419", "003408", "003409", "003423", "003430", "003340", "003262", "003220", "003131", "003094", "003077", "003033", "002991", "002963", "002940", "002895"]
     },
     {
         "id": "seibu-sayama",
         "name": "狭山線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003118", "003148", "003181"]
     },
     {
         "id": "seibu-toshima",
         "name": "豊島線",
         "operator": "西武鉄道",
         "includes": [],
-        "stationGroupCodes": []
+        "stationGroupCodes": ["003328", "003305"]
     },
     {
         "id": "seibu-yurakucho",
