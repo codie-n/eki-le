@@ -17908,23 +17908,20 @@
     "nameRomaji": null,
     "nameKanji": "王子",
     "acceptedNames": [
-      "王子",
-      "王子駅前"
+      "王子"
     ],
     "prefecture": "東京都",
     "municipality": "北区",
     "latitude": 35.75339535202305,
-    "longitude": 139.73776343732095,
+    "longitude": 139.7377497854372,
     "operators": [
       "東京地下鉄",
-      "東日本旅客鉄道",
-      "東京都"
+      "東日本旅客鉄道"
     ],
-    "lineCount": 3,
+    "lineCount": 2,
     "linesList": [
       "7号線南北線",
-      "東北線",
-      "荒川線"
+      "東北線"
     ],
     "duplicateCodes": [
       [
@@ -17952,10 +17949,6 @@
       [
         117716,
         "東北線"
-      ],
-      [
-        9239,
-        "荒川線"
       ]
     ],
     "passengerRank": null,
@@ -18044,6 +18037,50 @@
       [
         16387,
         "松戸線"
+      ]
+    ],
+    "passengerRank": null,
+    "passengerTier": null
+  },
+  {
+    "nameRomaji": null,
+    "nameKanji": "王子駅前",
+    "acceptedNames": [
+      "王子駅前"
+    ],
+    "prefecture": "東京都",
+    "municipality": "北区",
+    "latitude": 35.752741551997644,
+    "longitude": 139.73823730988073,
+    "operators": [
+      "東京都"
+    ],
+    "lineCount": 1,
+    "linesList": [
+      "荒川線"
+    ],
+    "duplicateCodes": [
+      [
+        1,
+        "荒川線"
+      ]
+    ],
+    "dataCodes": [
+      [
+        1,
+        "荒川線"
+      ]
+    ],
+    "notes": [
+      [
+        null,
+        "荒川線"
+      ]
+    ],
+    "dailyPassengers": [
+      [
+        9239,
+        "荒川線"
       ]
     ],
     "passengerRank": null,
